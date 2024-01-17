@@ -1,4 +1,4 @@
-package com.javahongkong.bootcamp.exercise;
+package com.jhk.bc.exercise;
 
 public abstract class Account {
 	private AccountHolder accountHolder;
@@ -43,5 +43,9 @@ public abstract class Account {
 	public boolean debitAccount(double amount) {
 		// complete the function
 		return true;
+	}
+	// ===========================================================================
+	public static void main(String[] args) {
+		System.out.println("Hello, my account.");
 	}
 }

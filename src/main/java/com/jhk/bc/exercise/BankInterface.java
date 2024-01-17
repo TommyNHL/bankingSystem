@@ -1,15 +1,12 @@
-package com.javahongkong.bootcamp.exercise;
+package com.jhk.bc.exercise;
 
 public interface BankInterface {
-
-	/**
-	 * Creates a new account and adds it to {@link Bank#accounts}.
-	 *
-	 * @param company
-	 * @param pin
-	 * @param startingDeposit
-	 * @return The account number for the newly created account.
-	 */
+	//Creates a new account and adds it to {@link Bank#accounts}
+	public Company company;
+	public int pin;
+	public double startingDeposit;
+	//return The account number for the newly created account.
+	
 	public Long openCommercialAccount(Company company, int pin, double startingDeposit);
 
 	/**

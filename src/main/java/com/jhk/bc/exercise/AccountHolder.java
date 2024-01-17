@@ -1,4 +1,4 @@
-package com.javahongkong.bootcamp.exercise;
+package com.jhk.bc.exercise;
 
 public abstract class AccountHolder {
 	private int idNumber;

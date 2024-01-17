@@ -1,4 +1,4 @@
-package com.javahongkong.bootcamp.exercise;
+package com.jhk.bc.exercise;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
